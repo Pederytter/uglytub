@@ -21,7 +21,7 @@
 			</nav>
 			<section id="homepage" class="area col-md-12">
 				<h1>Vleminck X</h1>
-				<h3>SausMeesters</h1>
+				<h3>SausMeesters</h3>
 			</section>
 		</header>
 		<main>
@@ -111,8 +111,8 @@
         <p>Vleminckx the Sausmeester (sauce master) has been located in the centre of Amsterdam, a few footsteps from the Spui, since 1957. Here, in a tiny hole-in-the-wall shop, you can find the best Flemish fries in Amsterdam.<br>For over 57 years the Sausmeester has stood for quality, selling home-made fries, which nowadays makes it unique. Vlaams Friteshuis Vleminckx is known for the many different sauces that can be chosen to accompany your paper cone filled with Belgian fries.<br>Many locals and tourists visit this spot regulary.</p>
 	</section>
     </div>
-	<article></article>
-
+	
+            <section>
 			<script src='https://maps.googleapis.com/maps/api/js?key=AIzaSyAvwhE6BPNjzub8YAdB0DeR422Yvfe3g5U&v=3.exp'></script><div style='overflow:hidden;height:440px;width:100%;'><div id='gmap_canvas' style='height:440px;width:100%;'></div><div><small><a href="http://embedgooglemaps.com">embed google maps</a></small></div><div><small><a href="https://privacypolicytemplate.net">privacy policy example</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(52.3678992,4.8910061999999925),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(52.3678992,4.8910061999999925)});infowindow = new google.maps.InfoWindow({content:'<strong>Title</strong><br>Voetboogstraat 33, 1012 XK Amsterdam, Holland<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
 		</section>
 
