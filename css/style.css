@@ -1,12 +1,67 @@
 
+@font-face {
+	font-family:Source-Serif-Pro;
+	src:url(/global/fonts/source-serif-pro.woff) format('woff');
+}
+
+header nav {
+	background-image: url(../images/menu-background.jpg);
+    height: 100px;
+}
+
+header nav ul {
+	list-style-type: none;
+	width: 1080px;
+	margin: 0 auto;
+}
+header nav ul li {
+	display: inline-block;
+	padding: 10px 15px;
+	margin: 20px 0px;
+	float: right;
+}
+
+
+header nav ul li a {
+	font-family: Source-Serif-Pro;
+    color: #910000;
+	font-size: 20pt
+}
+
+header #logo {
+	float: left;
+	width: 20%;
+	margin: 10px;
+}
+
+.area {
+	height: 80vh;
+}
+
+#homepage {
+	background-image: url(../images/vleminck-shop.jpg);
+	background-repeat: no-repeat;
+	background-position: 10% 40%;
+	background-size: 100%
+
+}
 
 .menuleft {
-    overflow: hidden;
-    font-family:sans-serif;
+    font-family:Source-Serif-Pro;
+    height:auto;
     
 }
 
 .menuright {
-    float: left;
-    
+    font-family:Source-Serif-Pro;
+    height: auto;
+}
+
+.menu {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.menu h1 {
+    text-align: center;
 }
