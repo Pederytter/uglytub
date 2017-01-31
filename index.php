@@ -12,15 +12,15 @@
 		<header>
 			<nav class="col-md-12">
 				<ul>
-					<a href="#homepage"><img id="logo" src="images/logo.png" alt="Vleminck Logo"></a>
+					<a href="#homepage"><img id="logo" src="images/logo1.png" alt="Vleminck Logo"></a>
 					<li><a class="page-scroll" href="#homepage">Homepage</a></li>
 					<li><a class="page-scroll" href="#menu">Menu</a></li>
-					<li><a class="page-scroll" href="#about">About US</a></li>
+					<li><a class="page-scroll" href="#about">About Us</a></li>
 					<li><a class="page-scroll" href="#location">Location</a></li>
 				</ul>
 			</nav>
 			<section id="homepage" class="area col-md-12">
-				<h1>Vleminck X</h1>
+				<h1>VleminckX</h1>
 				<h3>SausMeesters</h3>
 			</section>
 		</header>
@@ -72,7 +72,9 @@
 		<section class="menumid col-md-4">
 			<br><br>
 			<img src="images/smallmenu.png"/>
+            <br>
 			<img src="images/mediummenu.png"/>
+            <br>
 			<img src="images/largemenu.png"/>
 		</section>
 
