@@ -1,8 +1,7 @@
 
 <!DOCTYPE html>
 <html>
-	<<<<<<< HEAD
-			   <head>
+				   <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
@@ -22,7 +21,7 @@
 		</nav>
 		<section id="homepage" class="area col-md-12">
 			<h1>Vleminck X</h1>
-			<h3>SausMeesters</h1>
+			<h3>SausMeesters</h3>
 		</section>
 	</header>
 
@@ -33,7 +32,9 @@
 		</section>
 	</section>
 	<section class="menu">
-		<h1>Menu</h1>
+		
+        <h1>Menu</h1>
+        
 		<section class="menuleft col-md-4" >
 			<h3>Regular Sauces</h3>
 			<ol>
@@ -56,12 +57,12 @@
 					<br>
 					<b>**DOUBLE PORTION OF SAUCE</b></li>
 			</ol>
+            
+			<h4>Regular Sauces</h4>
+			<p id="sauces">Per sauce per portion: <br> <b>&euro; 0.70</b></p>
 
-			<h3>Regular Sauces</h3>
-			<p>Per sauce per portion: <br> <b>&euro; 0.70</b></p>
-
-			<p>Double portion or 2 sauces: <br> <b>&euro; 1.00</b></p>
-
+			<p id="sauces">Double portion or 2 sauces: <br> <b>&euro; 1.00</b></p>
+           
 		</section>
 		<section class="menumid col-md-4">
 			<br><br>
@@ -90,14 +91,21 @@
 				<li>Barbecue Sauce</li>
 				<li>Yellow Curry Sauce</li>
 			</ol>
+            
+			<h4>Belgian Sauces</h4>
+			<p id="sauces">Per sauce per portion: <br> <b>&euro; 0.70</b></p>
 
-			<h3>Belgian Sauces</h3>
-			<p>Per sauce per portion: <br> <b>&euro; 0.70</b></p>
-
-			<p>Double portion or 2 sauces: <br> <b>&euro; 1.00</b></p>
-		</section>
+			<p id="sauces">Double portion or 2 sauces: <br> <b>&euro; 1.00</b></p>
+                
+        </section>
+    </section>
+        
+    <div class="aboutbg col-md-12">
+        <section class="about col-md-4">
+            <h2>About</h2>        
+        <p>Vleminckx the Sausmeester (sauce master) has been located in the centre of Amsterdam, a few footsteps from the Spui, since 1957. Here, in a tiny hole-in-the-wall shop, you can find the best Flemish fries in Amsterdam.<br>For over 57 years the Sausmeester has stood for quality, selling home-made fries, which nowadays makes it unique. Vlaams Friteshuis Vleminckx is known for the many different sauces that can be chosen to accompany your paper cone filled with Belgian fries.<br>Many locals and tourists visit this spot regulary.</p>
 	</section>
-
+    </div>
 	<article></article>
 
 
