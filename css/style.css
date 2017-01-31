@@ -10,7 +10,7 @@
 
 header nav {
 	background-image: url(../images/menu-background.jpg);
-    height: 100px;
+	height: 100px;
 }
 
 header nav ul {
@@ -28,7 +28,7 @@ header nav ul li {
 
 header nav ul li a {
 	font-family: Source-Serif-Pro;
-    color: #910000;
+	color: #910000;
 	font-size: 20pt
 }
 
@@ -59,26 +59,81 @@ header #logo {
 	text-shadow: 2px 2px 2px rgba(0,0,0,01);
 }
 #homepage h3 {
-	background-size: 100%
+	color: white;
+	margin-top: 10px;
+	margin-left: -40%;
+	font-size: 2.6em;
+	font-family: Source-Serif-Pro;
+	text-shadow: 2px 2px 2px rgba(0,0,0,01);
 
 }
 
 .menuleft {
-    font-family:Source-Serif-Pro;
-    height:auto;
-    
+	font-family:Source-Serif-Pro;
+	height:auto;
+
 }
 
 .menuright {
-    font-family:Source-Serif-Pro;
-    height: auto;
+	font-family:Source-Serif-Pro;
+	height: auto;
 }
 
 .menu {
-    width: 1080px;
-    margin: 0 auto;
+	width: 1080px;
+	margin: 0 auto;
 }
 
 .menu h1 {
-    text-align: center;
+	text-align: center;
+}
+
+#hours {
+	height: 140px;
+	width: 1080px;
+	margin: 0 auto;
+	display: table;
+	width: 100%;
+	background-image: url(../images/menu-background.jpg);
+}
+
+.container {
+	width: 1080px;
+}
+
+#hoursleft h3 {
+	float: left;
+	font-family: Source-Serif-Pro;
+	margin-top: 50px;
+	color: #910000;
+	font-size: 2.5em;
+	font-weight: bold;
+
+}
+
+#hoursleft p {
+	margin-left: 185px;
+	margin-top: 28px;
+	padding: 20px;
+	float: none;
+}
+
+
+#map {
+	height: 400px;
+	width: 100%;
+}
+
+footer{
+	background-image: url(../images/menu-background.jpg);
+	height: 160px;
+	padding: 20px 0;
+}
+
+footer section {
+}
+footer h4 {
+	font-size: 2em;
+	color: #910000;
+	
 }
