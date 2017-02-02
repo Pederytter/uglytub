@@ -12,6 +12,9 @@ body {
 	font-family:Source-Serif-Pro;
 	src:url(/global/fonts/source-serif-pro.woff) format('woff');
 }
+header {
+	display: table;
+}
 
 header nav {
 	background-image: url(../images/menu-background.jpg);
@@ -20,7 +23,8 @@ header nav {
 
 header nav ul {
 	list-style-type: none;
-	width: 1080px;
+	width: 100%;
+	max-width: 1080px;
 	margin: 0 auto;
 }
 header nav ul li {
@@ -28,6 +32,60 @@ header nav ul li {
 	padding: 10px 15px;
 	margin: 20px 0px;
 	float: right;
+}
+@media screen and (max-width: 480px) {
+header nav {
+	height: 100%;
+	}
+header nav ul li {
+	float: none;
+	display: block;
+	}
+header #logo {
+	width: 70% !important;
+	padding: 10%;
+	float: none !important;
+	}
+header a {
+	text-align: center;
+	display: block;
+	}
+	#homepage h1 {
+		font-size: 3em !important;
+		margin-top: 0 !important;
+		padding-top: 50px !important;
+		margin-left: 0 !important;
+		}
+	#homepage h3 {
+		margin-left: 0 !important;
+		2em; 
+	}
+	#hours {
+		margin-top: -25px !important;
+	}
+	#hoursleft h3 {
+		font-size: 2em !important;
+	}
+	.container {
+		padding: 0 !important;
+	}
+	#hoursleft p {
+		display: table;
+		margin-left: 10px !important;
+	}
+	.menuleft, .menumid , .menuright {
+		    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+	}
+	
+.aboutbg {
+	background-size: 180% !important;
+	}
+	footer {
+		
+    height: 200px !important;
+	}
 }
 
 
@@ -76,7 +134,8 @@ header #logo {
 }
 
 .menu {
-	width: 1080px;
+	width: 100%;
+	max-width: 1080px;
 	margin: 0 auto;
 }
 
@@ -86,7 +145,6 @@ header #logo {
 
 #hours {
 	height: 140px;
-	width: 1080px;
 	margin: 0 auto;
 	display: table;
 	width: 100%;
@@ -94,7 +152,8 @@ header #logo {
 }
 
 .container {
-	width: 1080px;
+	width: 100%;
+	max-width: 1080px;
 }
 
 #hoursleft h3 {
@@ -134,7 +193,6 @@ footer h4 {
 }
 
 .menu {
-    width: 1080px;
     margin: 0 auto;
     color: #800000;
     font-size: 16px;    
@@ -173,3 +231,5 @@ footer h4 {
     padding-top: 150px;
     
 }
+
+
